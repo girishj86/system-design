@@ -1,0 +1,27 @@
+Functional Requirements
+
+1.	1 to 1 and Group Conversation
+2.	Msg Ack for Sent, Delivered, Read
+3.	Support Media (Image, Voice and Video)
+4.	Support Storage when user offline
+5.	Push notifications
+6.	Data Backup
+
+Non-Functional Requirements
+
+1.	Low Latency
+2.	Consistency (Same order in all devices)
+3.	Highly Available
+4.	Secured/Encrypted communication
+5.	Highly Scalable
+
+Resource Estimation
+
+2 billion users
+100 billion messages per day
+100 billion x 100 bytes = 10 TB/day
+30 days x 10 TB = 300 TB/month
+Media, Encryption, User Metadata
+
+Each Server = 10 million connections/users
+2 x (10 ^ 9) / (10 x 10 ^6) = 200 chat servers
